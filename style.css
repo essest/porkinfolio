@@ -112,6 +112,7 @@ p{
 
     p {
         margin-left: 0px;
+        text-align: justify;
     }
 
     .boxgrid {
@@ -120,5 +121,12 @@ p{
         grid-template-rows: auto;
         row-gap: 20px;
         }
+    
+    .photo {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
     }
+}
  
